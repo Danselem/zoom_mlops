@@ -29,3 +29,9 @@ prefect block type ls
 prefect block register -m prefect_aws
 
 prefect deploy --all
+
+Run deployment from terminal
+
+prefect deployment run main-flow-s3/taxi_s3_data
+
+prefect worker start -p zoompool
