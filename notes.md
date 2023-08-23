@@ -19,3 +19,13 @@ prefect deploy 3.4/orchestrate.py:main_flow -n taxi1 -p zoompool
 Start a worker
 
 prefect worker start -p zoompool -t process
+
+
+prefect block ls
+
+prefect block type ls
+
+
+prefect block register -m prefect_aws
+
+prefect deploy --all
